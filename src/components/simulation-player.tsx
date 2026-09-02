@@ -40,7 +40,7 @@ export function SimulationPlayer({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [playing, index, scenes.length]);
 
-  const scene = scenes[index];
+  const scene = scenes[index]!;
 
   const goTo = (i: number) => {
     setIndex(i);

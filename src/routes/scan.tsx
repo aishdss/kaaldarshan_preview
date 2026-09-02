@@ -38,7 +38,7 @@ const steps = [
 function Scan() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [camera, setCamera] = useState<"off" | "on" | "denied">("off");
-  const [target, setTarget] = useState(monuments[0]);
+  const [target, setTarget] = useState(monuments[0]!);
   const [phase, setPhase] = useState<Phase>("idle");
   const [step, setStep] = useState(0);
 
@@ -128,7 +128,7 @@ function Scan() {
             {phase === "scanning" && (
               <div className="absolute inset-x-0 bottom-0 space-y-2 bg-background/70 px-5 py-4">
                 <p className="text-[10px] tracking-royal text-primary">
-                  <Sparkles className="mr-1 inline h-3 w-3" /> {steps[step]}
+                  <Sparkles className="mr-1 inline h-3 w-3" /> {steps[step]!}
                 </p>
                 <span className="block h-1 overflow-hidden rounded-full bg-secondary">
                   <span

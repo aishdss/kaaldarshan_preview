@@ -12,8 +12,8 @@ const stateMeta = {
 export function EraSlider({ eras }: { eras: Era[] }) {
   const [i, setI] = useState(eras.length - 1);
   const [split, setSplit] = useState(50);
-  const era = eras[i];
-  const present = eras[eras.length - 1];
+  const era = eras[i]!;
+  const present = eras[eras.length - 1]!;
   const meta = stateMeta[era.state];
 
   return (
@@ -79,7 +79,7 @@ export function EraSlider({ eras }: { eras: Era[] }) {
 
         <Slider
           value={[i]}
-          onValueChange={(v) => setI(v[0])}
+          onValueChange={(v) => setI(v[0]!)}
           min={0}
           max={eras.length - 1}
           step={1}
@@ -110,7 +110,7 @@ export function EraSlider({ eras }: { eras: Era[] }) {
           </div>
           <Slider
             value={[split]}
-            onValueChange={(v) => setSplit(v[0])}
+            onValueChange={(v) => setSplit(v[0]!)}
             min={0}
             max={100}
             step={1}
