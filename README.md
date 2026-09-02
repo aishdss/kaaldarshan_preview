@@ -1,5 +1,7 @@
 # KaalDarshan 🏛️
 
+An early prototype exploring our team's KaalDarshan concept for SIH 2026.
+
 **See history. Experience the past.**
 
 KaalDarshan is an AI-powered heritage exploration app that brings historical monuments, sculptures, and sites to life.
