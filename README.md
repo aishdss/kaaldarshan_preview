@@ -18,6 +18,6 @@ Point your camera at a monument or historical object to discover its **history, 
 
 ### 🌐 Preview
 
-**Live preview of App:** [kaaldarshan.lovable.app](https://kaaldarshan.lovable.app)
+**Live preview of App:** [kaaldarshan.lovable.app][(https://kaaldarshan.lovable.app)](https://kaaldarshan-preview.lovable.app/)
 
 Built with **[Lovable](https://lovable.dev/)**.
