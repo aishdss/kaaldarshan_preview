@@ -1,8 +1,21 @@
-KaalDarshan
+# KaalDarshan 🏛️
 
-An application that when camera is pointed at a monument/sculpture, shows the history, significance and other important events that occured related to the image. It also generates a simulation in real time when camera is pointed like it is happening live of the actual event happened at the particular place years ago as to why its significant (ai based) eg- jallian wallabagh massacre or wars of kingdoms or when pointed at a throne it shows the king and when pointed at a hall shows the jury etc, also for older/deteriorated monuments, generates ai image of how it was originally and user can slide thru diff periods/years in time like 1990, 1800, 2020 etc and it shows how the place looked in that time.
+**See history. Experience the past.**
 
-This project was built with [Lovable](https://lovable.dev).
+KaalDarshan is an AI-powered heritage exploration app that brings historical monuments, sculptures, and sites to life.
 
-**Live app**: https://kaaldarshan.lovable.app
+Point your camera at a monument or historical object to discover its **history, significance, people, and events** associated with it. KaalDarshan also uses AI to create immersive visualizations of historical events and reconstruct how deteriorated or changed sites may have looked in different periods.
 
+### ✨ Key Features
+
+* 📷 **AI Heritage Recognition** — Identify monuments, sculptures, and historical objects.
+* 📜 **Historical Insights** — Discover stories, events, people, and significance.
+* 🎭 **AI Historical Visualizations** — Experience events associated with a location.
+* ⏳ **Time Travel** — Explore how a site may have looked across different years and eras.
+* 🏛️ **AI Reconstruction** — Visualize the original appearance of damaged or deteriorated heritage sites.
+
+### 🌐 Preview
+
+**Live App:** [kaaldarshan.lovable.app](https://kaaldarshan.lovable.app)
+
+Built with **[Lovable](https://lovable.dev/)**.
