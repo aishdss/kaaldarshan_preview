@@ -20,8 +20,6 @@ Point your camera at a monument or historical object to discover its **history, 
 
 **Live preview of App:** https://kaaldarshan-preview.lovable.app
 
-Built with **[Lovable](https://lovable.dev/)**.
-
 ### AI Application Development Prompt used-
 
 "Create an application that, when the camera is pointed at a monument/sculpture, shows the history, significance, and other important events that occurred related to the image.
